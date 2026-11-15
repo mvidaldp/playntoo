@@ -24,7 +24,7 @@ Add Playntoo:
 
 ```bash
 sudo eselect repository add playntoo git \
-  https://github.com/$\{GITHUB_USER\}/playntoo-overlay.git
+  https://github.com/mvidaldp/playntoo.git
 
 sudo emaint sync -r playntoo
 ```
