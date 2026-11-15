@@ -1,0 +1,35 @@
+# Generated Gentoo metadata
+/metadata/md5-cache/
+/metadata/cache/
+
+# Editors and temporary files
+*.swp
+*.swo
+*~
+*.log
+__pycache__/
+.vscode/
+
+# Build outputs
+/build/
+/distfiles/
+/packages/
+
+# Game data
+*.z64
+*.n64
+*.nes
+*.sfc
+*.smc
+*.gbc
+*.gba
+*.iso
+*.wux
+*.nup
+*.otr
+*.o2r
+*.AppImage
+
+# Local secrets
+.env
+.env.*
