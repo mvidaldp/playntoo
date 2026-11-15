@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+set -euo pipefail
+if ! command -v wine >/dev/null 2>&1; then
+  printf 'Wine is not installed. The original installer is at /opt/reshade/ReShade_Setup.exe\n' >&2
+  exit 1
+fi
+exec wine /opt/reshade/ReShade_Setup.exe "$@"
